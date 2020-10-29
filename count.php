@@ -14,4 +14,4 @@ while (!feof($file)) {
   }
 }
 fclose($file);
-echo "Lines:  " . $lines . "<br>";
+echo "Lines:  " . $lines;
