@@ -15,6 +15,6 @@ while (!feof($file)) {
 }
 fclose($file);
 
-echo "This algorithm will count the file's lines, and after, will show on the screen the amout of lines!";
+echo "This algorithm will count the file's lines, and after, will show on the screen the amount of lines!";
 
 echo "Lines:  " . $lines;
