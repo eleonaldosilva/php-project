@@ -7,4 +7,4 @@ Average Temperature is : 70.6
 List of seven lowest temperatures : 60, 62, 63, 63, 64, 
 List of seven highest temperatures : 76, 78, 79, 81, 85, -->
 <?php
-echo "Hello, world!";
+echo "Test, commit!";
