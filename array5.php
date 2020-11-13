@@ -1,9 +1,9 @@
 <!--I have a property in PHP called: rsort -->
 <!-- rsort example -->
 <?php
-$frutas = array("limao", "laranja", "banana", "maçã");
-rsort($frutas);
-foreach ($frutas as $chave => $valor) {
-  echo "$chave = $valor\n";
+$fruits = array("lemon", "orange", "banana", "apple");
+rsort($fruits);
+foreach ($fruits as $key => $value) {
+  echo "$key = $value\n";
 }
 ?>
