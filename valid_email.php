@@ -9,11 +9,12 @@
 		<input type="text" id="email" name="email"/>
 		<input type="submit" value="Check E-mail"/>
 	</form>
+
 	<?php
 		if($_POST)
 		{
 			$email = $_POST['email'];
-
+			# Use filter_var to valid the input
 			if(filter_var($email, FILTER_VALIDATE_EMAIL)){
 				echo "The email address ".$email." is valid.";
 			}
@@ -22,5 +23,6 @@
 			}
 		}
 	?>
+
 </body>
 </html>
